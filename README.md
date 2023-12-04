@@ -1,7 +1,7 @@
 ## Joint Optimization of Splitter Pattern and Image Reconstruction for Metasurface-based Color Imaging Systems
 
 ### Setup and Installation
-'''
+```
 # create and activate new conda environment
 conda create -n splitter python=3.10
 conda activate splitter
@@ -13,9 +13,9 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 pip install -r requirements.txt
 
 # clone the repository
-git clone https://github.com/volflow/DeFlow.git
+git clone https://github.com/haosennn/Splitter.git
 cd ./Splitter/
-'''
+```
 
 ### Dataset
 
