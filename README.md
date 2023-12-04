@@ -27,7 +27,11 @@ Training and test datasets can be downloaded from the following websites:
 Pretrained models can be downloaded from: https://drive.google.com/drive/folders/1F_cTzA7KaeKz6eEpiT-CEuQozV7WtRL9?usp=drive_link
 
 ### Validate Pre-trained Models
+```
 python main_test.py --exp 1 --save --sigmas 0 --data_test Kodak24
+```
 
 ### Train Joint-Network
+```
 python main_train.py --S_type A --gpu_ids 0
+```
